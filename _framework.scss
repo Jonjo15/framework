@@ -42,3 +42,9 @@ $grid-columns: 12;
 .center {
   margin: 0 auto;
 }
+.start {
+  justify-content: flex-start;
+}
+.end {
+  justify-content: flex-end;
+}

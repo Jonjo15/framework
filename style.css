@@ -205,6 +205,14 @@
   margin: 0 auto;
 }
 
+.start {
+  justify-content: flex-start;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -311,11 +319,30 @@ section .backdrop {
 .last-section {
   background: rgba(74, 74, 74, 0.15);
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .white-backdrop {
   background: white;
   justify-content: space-between;
+}
+
+.improve {
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.improve:hover {
+  color: black;
+}
+
+.question {
+  font-size: 1.3rem;
+}
+.question button {
+  width: 35%;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -103,8 +103,25 @@ section {
 .last-section {
   background: $backdrop-color;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .white-backdrop {
   background: white;
   justify-content: space-between;
+}
+.improve {
+  display: block;
+  cursor: pointer;
+  &:hover {
+    color: black;
+  }
+  text-align: center;
+  font-size: 1.3rem;
+}
+.question {
+  font-size: 1.3rem;
+  button {
+    width: 35%;
+    margin-top: 30px;
+  }
 }
