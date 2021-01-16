@@ -248,6 +248,10 @@ li {
 
 nav h1 {
   padding: 10px;
+  cursor: pointer;
+}
+nav h1:hover {
+  color: black;
 }
 nav li {
   cursor: pointer;
@@ -266,6 +270,15 @@ nav li:hover {
 
 section aside {
   padding: 15px;
+}
+section aside ul {
+  list-style-type: disc;
+}
+section aside ul li {
+  cursor: pointer;
+}
+section aside ul li:hover {
+  color: black;
 }
 section article {
   padding: 15px;
@@ -310,6 +323,7 @@ section .backdrop {
   min-height: 50vh;
   width: 80%;
   overflow: hidden;
+  padding: 30px;
 }
 
 .mb-3 {
@@ -343,6 +357,57 @@ section .backdrop {
 .question button {
   width: 35%;
   margin-top: 30px;
+}
+
+.b-top {
+  border-top: 2px solid rgba(74, 74, 74, 0.15);
+  align-items: center;
+}
+.b-top h3 {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.b-top ul {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+.bigger {
+  font-size: 1.5rem;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+footer {
+  background-color: white;
+  align-items: center;
+  padding-bottom: 65px !important;
+}
+footer .logos {
+  display: flex;
+  justify-self: flex-end;
+  font-size: 1.25rem;
+}
+footer .logos li {
+  color: #cc9543;
+  cursor: pointer;
+}
+footer .logos li:hover {
+  color: black;
+}
+footer .vertical {
+  justify-self: flex-end;
+  font-weight: bolder;
+}
+footer .vertical li {
+  cursor: pointer;
+}
+footer .vertical li:hover {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

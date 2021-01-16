@@ -34,6 +34,10 @@ li {
 nav {
   h1 {
     padding: 10px;
+    cursor: pointer;
+    &:hover {
+      color: black;
+    }
   }
   li {
     cursor: pointer;
@@ -51,6 +55,15 @@ nav {
 section {
   aside {
     padding: 15px;
+    ul {
+      list-style-type: disc;
+      li {
+        cursor: pointer;
+        &:hover {
+          color: black;
+        }
+      }
+    }
   }
   article {
     h3 {
@@ -95,6 +108,7 @@ section {
     min-height: 50vh;
     width: 80%;
     overflow: hidden;
+    padding: 30px;
   }
 }
 .mb-3 {
@@ -123,5 +137,52 @@ section {
   button {
     width: 35%;
     margin-top: 30px;
+  }
+}
+.b-top {
+  border-top: 2px solid $backdrop-color;
+  align-items: center;
+  h3 {
+    font-weight: bolder;
+    font-size: 1.2rem;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 1.25rem;
+  }
+}
+.bigger {
+  font-size: 1.5rem;
+}
+.w-80 {
+  width: 80%;
+}
+footer {
+  background-color: white;
+  align-items: center;
+  padding-bottom: 65px !important;
+  .logos {
+    display: flex;
+    justify-self: flex-end;
+    font-size: 1.25rem;
+    li {
+      color: $secondary-color;
+      cursor: pointer;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+  .vertical {
+    justify-self: flex-end;
+    font-weight: bolder;
+    li {
+      cursor: pointer;
+      &:hover {
+        color: black;
+      }
+    }
   }
 }
