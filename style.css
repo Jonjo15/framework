@@ -197,7 +197,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 10px;
-  max-width: 1440px;
+  max-width: 1300px;
   padding: 20px;
 }
 
@@ -217,7 +217,105 @@ ul {
 
 body {
   font: 100% Helvetica, sans-serif;
-  color: #cf4444;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+a {
+  text-decoration: none;
+  color: #cc9543;
+}
+
+li {
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+nav h1 {
+  padding: 10px;
+}
+nav li {
+  cursor: pointer;
+}
+nav li:hover {
+  color: black;
+}
+
+.progress {
+  margin-top: 50px;
+}
+
+.progress > * {
+  padding: 10px;
+}
+
+section aside {
+  padding: 15px;
+}
+section article {
+  padding: 15px;
+}
+section article h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+section article p {
+  line-height: 1.4;
+  font-size: 1.35rem;
+  width: 80%;
+}
+section article ul {
+  margin-left: 20px;
+}
+section article ul li {
+  list-style: disc;
+  font-size: 1.25rem;
+  padding: 5px;
+}
+section article ol {
+  margin-left: 25px;
+  font-size: 1.25rem;
+}
+section article ol li {
+  padding: 15px 5px;
+}
+section article a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+section article a:hover {
+  color: black;
+}
+section .backdrop {
+  background: rgba(74, 74, 74, 0.15);
+  min-height: 50vh;
+  width: 80%;
+  overflow: hidden;
+}
+
+.mb-3 {
+  margin-bottom: 30px;
+}
+
+.last-section {
+  background: rgba(74, 74, 74, 0.15);
+  padding-top: 50px;
+}
+
+.white-backdrop {
+  background: white;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,24 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="container">
-        <h1>The Odin Project</h1>
-        <ul>
+    <nav class="container center ">
+        <h1 class="column-6">The Odin Project</h1>
+        <ul class="column-6 flex end">
             <li>My Path</li>
             <li>All Paths</li>
             <li>Community</li>
             <li>Profile</li>
         </ul>
     </nav>
-    <header>
-        <div class="progress">
+    <header class="container progress">
+        <div class="column-12 center">
             O
         </div>
-        <h2>HTML and CSS</h2>
-        <h4>USING CSS PREPROCESSORS TO SAVE TIME</h4>
+        <h2 class="column-12 center">HTML and CSS</h2>
+        <h4 class="column-12 center">USING CSS PREPROCESSORS TO SAVE TIME</h4>
     </header>
-    <section>
-        <aside>
+    <section class="container">
+        <aside class="column-3">
             <ul>
                 <li>INTRODUCTION</li>
                 <li>LEARNING OUTCOMES</li>
@@ -32,7 +32,7 @@
                 <li>ADDITIONAL RESOURCES</li>
             </ul>
         </aside>
-        <article>
+        <article class="column-9 center">
             <h3>Introduction</h3>
             <p>Preprocessors (aka precompilers) can make your life much easier by eliminating code repetition and providing all sorts of yummy time-saving and code-saving features. If you’ve been using Rails, you’ll be familiar with SASS already since it’s baked in. If you’re not using Rails, you may need to add some additional steps to your workflow to get your preprocessor set up but it’s worth it.</p>
             <h3>Learning Outcomes</h3>
@@ -49,35 +49,69 @@
                 <li>What other preprocessors are out there?</li>
             </ul>
             <h3>Assignment</h3>
-            <ol>
+            <div class="backdrop">
+              <ol>
                 <li>Read <a>Introduction to CSS Preprocessors from Steven Bradley</a></li>
                 <li>Read <a>6 Reasons You Should Use a Preprocessor</a></li>
                 <li>Read <a>Choosing the Right CSS Preprocessor from Treehouse</a></li>
                 <li>Look over <a>SASS’s getting started guide</a>, which provides a brief look at its awesome features</li>
                 <li><a>A List Apart walks through specifically how you should be using SASS (lots of best practices in there) </a>so read up and enjoy!</li>
-            </ol>
+            </ol>  
+            </div>
+            
             <h3>Additional Resources</h3>
+            <p class="mb-3">This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.</p>
             <ul>
                 <li><a>SASS’s main website</a></li>
                 <li><a>LESS’s main website</a></li>
             </ul>
         </article>
     </section>
-    <section>
-        <div>
-            <button>View Course</button>
-            <button>Completed</button>
-            <button>Next Lesson</button>
+    <section class="last-section">
+        <div class="container white-backdrop center">
+            <button class="wide-button column-3">View Course</button>
+            <button class="wide-button column-3">Completed</button>
+            <button class="wide-button column-3">Next Lesson</button>
         </div>
         <a href="#">Improve this lesson on GitHub</a>
-        <div class="question">
+        <div class="question container center">
             <p>Have a question?</p>
             <p>Chat with our friendly Odin community in our Discord chatrooms!</p>
             <button>Open Discord</button>
         </div>
         <div class="container">
-<!-- //?*? -->
+            <div>
+                <h3>Are you interested in accelerating your web development learning experience?</h3>
+                <button>Get Started</button>
+            </div>
+            <div>
+                <h2>Thinkfull</h2>
+                <ul>
+                    <li>5-6 months</li>
+                    <li>Job Guarantee</li>
+                    <li>1-on-1 Mentorship</li>
+                </ul>
+            </div>
         </div>
     </section>
+    <footer>
+        <h2>The Odin Project</h2>
+        <ul>
+            <li>logo</li>
+            <li>logo</li>
+            <li>logo</li>
+            <li>logo</li>
+        </ul>
+        <ul>
+            <li>About</li>
+            <li>FAQ</li>
+            <li>Blog</li>
+        </ul>
+        <ul>
+            <li>Success Stories</li>
+            <li>Contribute</li>
+            <li>Terms of Use</li>
+        </ul>
+    </footer>
 </body>
 </html>

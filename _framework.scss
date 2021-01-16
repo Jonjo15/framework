@@ -36,7 +36,7 @@ $grid-columns: 12;
   display: grid;
   grid-template-columns: repeat($grid-columns, 1fr);
   grid-gap: 10px;
-  max-width: 1440px;
+  max-width: 1300px;
   padding: 20px;
 }
 .center {
